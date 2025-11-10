@@ -14,17 +14,17 @@ os.environ['TF_DETERMINISTIC_OPS'] = '1'
 # The batch size for training
 batch_size = 256
 # The sequence length for training
-seq_length = 15
+seq_length = 16
 # The number of units in each LSTM layer
-rnn_units = 400
+rnn_units = 256
 # The number of LSTM layers
-num_layers = 4
+num_layers = 2
 # The size of the embedding layer
-embedding_size = 1024
+embedding_size = 256
 # The initial learning rate for optimizer
-start_learning_rate = 0.0005
+start_learning_rate = 0.005
 # The final learning rate for optimizer
-end_learning_rate = 0.0002
+end_learning_rate = 0.001
 # The mode for the program, "compress", "decompress", "both"
 mode = 'both'
 
